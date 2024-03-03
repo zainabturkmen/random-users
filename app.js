@@ -6,5 +6,5 @@ const img = get(".user-img");
 const title = get(".user-title");
 const value = get(".user-values");
 const btn = get(".btn");
-const btns = [...document.querySelectorAll(".icon")]
+const btns = [...document.querySelectorAll(".icon")];
 console.log(btns);
