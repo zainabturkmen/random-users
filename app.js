@@ -7,5 +7,5 @@ const getElement=  (Selection) => {
 
 const URL = "https://randomuser.me/api/";
 
-const img = document.querySelector(".user-img");
+const img = getElement(".user-img");
 console.log(img);
