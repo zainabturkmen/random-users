@@ -6,11 +6,6 @@ const img = document.querySelector(".user-img");
 
 function getElement(){
     const element = document.querySelector(Selection)
-    if(element){
-        element
-    }else{
-        new Error({
-            
-        })
-    }
+    if(element) return element;
+    throw new Error(`no element selected`)
 }
