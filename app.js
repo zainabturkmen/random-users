@@ -3,5 +3,5 @@ import get from "./utils/getElement.js"
 
 const URL = "https://randomuser.me/api/";
 
-const img = getElement(".user-img");
+const img = get(".user-img");
 console.log(img);
