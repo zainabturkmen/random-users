@@ -1,9 +1,5 @@
 
-const getElement=  (Selection) => {
-    const element = document.querySelector(Selection)
-    if(element) return element;
-    throw new Error(`no element selected`)
-};
+import get from "./utils/getElement.js"
 
 const URL = "https://randomuser.me/api/";
 
