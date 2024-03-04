@@ -20,7 +20,7 @@ const getUser = async () =>{
     const {password} = person.login;
     const {first, last} = person.name;
     const {dob:{age}} = person
-    const {street} = person.location
+    const {street: {number, name}} = person.location
 };
 
 const showUser = ()=>{
