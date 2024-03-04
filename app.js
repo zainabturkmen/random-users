@@ -10,7 +10,8 @@ const btns = [...document.querySelectorAll(".icon")];
 console.log(btns);
 
 const showUser = ()=>{
-
+    // get user from api 
+    // display users
 };
 
 window.addEventListener("DOMContentLoaded", showUser);
