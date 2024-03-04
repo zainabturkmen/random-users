@@ -16,6 +16,9 @@ const displayUser = (person) => {
     btns[0].classList.add("active");
     btns.forEach((btn)=>{
         const label = btn.dataset.label;
+        btn.addEventListener("click", ()=>{
+            console.log(person[label]);
+        })
     })
 }
 
