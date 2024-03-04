@@ -4,7 +4,11 @@ const URL = "https://randomuser.me/api/";
 
 const img = get(".user-img");
 const title = get(".user-title");
-const value = get(".user-values");
+const value = get(".user-value");
 const btn = get(".btn");
 const btns = [...document.querySelectorAll(".icon")];
 console.log(btns);
+
+const showUser = ()=>{
+    
+}
