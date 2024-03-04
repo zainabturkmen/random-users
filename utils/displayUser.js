@@ -1,3 +1,9 @@
+import get from "./getElement.js"
+const img = get(".user-img");
+const title = get(".user-title");
+const value = get(".user-value");
+const btns = [...document.querySelectorAll(".icon")];
+console.log(btns);
 
 const displayUser = (person) => {
     img.src = person.image;
