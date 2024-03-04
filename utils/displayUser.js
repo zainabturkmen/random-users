@@ -13,7 +13,7 @@ const displayUser = (person) => {
             btns.forEach((btn) => btn.classList.remove("active"));
             btn.classList.add("active")
         })
-    })
+    });
 };
 
 export default displayUser;
