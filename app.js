@@ -23,13 +23,19 @@ const getUser = async () =>{
     const {street: {number, name}} = person.location;
 
     return{
-        
+        phone,
+        email, 
+        image, 
+        password, 
+        age, 
+        street: `${number}, ${name}`, 
+        name: `${first} ${last}`
     }
 };
 
 const showUser = ()=>{
     // get user from api 
-    getUser()
+    getUser().then;
 
     // display users
 };
