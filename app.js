@@ -1,7 +1,6 @@
 
 import get from "./utils/getElement.js";
 import getUser from "./utils/fetchUser.js";
-const URL = "https://randomuser.me/api/";
 
 const img = get(".user-img");
 const title = get(".user-title");
