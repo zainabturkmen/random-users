@@ -1,4 +1,5 @@
 import get from "./getElement.js"
+import removeActive from "./removeActive.js";
 const img = get(".user-img");
 const title = get(".user-title");
 const value = get(".user-value");
@@ -17,14 +18,12 @@ const displayUser = (person) => {
         btn.addEventListener("click", ()=>{
             title.textContent = `My ${label} is`;
             value.textContent = person[label];
-            btns.forEach((btn) => btn.classList.remove("active"));
-            btn.classList.add("active")
+            removeActive(btns);
+                btn.classList.add("active")
         });
     });
 };
 
-function removeActive(items){
-    items.forEach((btn) => btn.classList.remove("active"));
-};
+
 
 export default displayUser;
