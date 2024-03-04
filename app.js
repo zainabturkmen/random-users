@@ -9,7 +9,9 @@ const btn = get(".btn");
 const btns = [...document.querySelectorAll(".icon")];
 console.log(btns);
 
+const displayUser = (person) => {
 
+}
 
 
 const showUser = async ()=>{
