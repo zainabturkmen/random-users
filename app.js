@@ -10,5 +10,8 @@ const btns = [...document.querySelectorAll(".icon")];
 console.log(btns);
 
 const showUser = ()=>{
-    
-}
+
+};
+
+window.addEventListener("DOMContentLoaded", showUser);
+btn.addEventListener("click", showUser);
