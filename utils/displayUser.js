@@ -9,7 +9,7 @@ const displayUser = (person) => {
     img.src = person.image;
     value.textContent = person.name;
     title.textContent = `My name is`;
-    
+
     btns[0].classList.add("active");
     btns.forEach((btn)=>{
         const label = btn.dataset.label;
@@ -20,6 +20,10 @@ const displayUser = (person) => {
             btn.classList.add("active")
         });
     });
+};
+
+function removeActive(items){
+    items.forEach((btn) => btn.classList.remove("active"));
 };
 
 export default displayUser;
