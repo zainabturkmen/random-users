@@ -21,6 +21,10 @@ const getUser = async () =>{
     const {first, last} = person.name;
     const {dob:{age}} = person;
     const {street: {number, name}} = person.location;
+
+    return{
+        
+    }
 };
 
 const showUser = ()=>{
