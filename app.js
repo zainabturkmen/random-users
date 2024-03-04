@@ -19,8 +19,8 @@ const getUser = async () =>{
     const {large:image} = person.picture;
     const {password} = person.login;
     const {first, last} = person.name;
-    const {dob:{age}} = person
-    const {street: {number, name}} = person.location
+    const {dob:{age}} = person;
+    const {street: {number, name}} = person.location;
 };
 
 const showUser = ()=>{
