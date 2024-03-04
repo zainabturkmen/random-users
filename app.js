@@ -12,7 +12,10 @@ console.log(btns);
 
 const getUser = async () =>{
     const response = await fetch(URL);
-    
+    const data = await response.json();
+    // destructure
+    const person = data.results[0]
+    const {phone, email} = person;
 }
 
 const showUser = ()=>{
