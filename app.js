@@ -33,10 +33,9 @@ const getUser = async () =>{
     }
 };
 
-const showUser = ()=>{
+const showUser = async ()=>{
     // get user from api 
-    getUser().then(data => console.log(data));
-
+    const person = await getUser();
     // display users
 };
 
