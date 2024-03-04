@@ -19,6 +19,8 @@ const displayUser = (person) => {
         btn.addEventListener("click", ()=>{
             title.textContent = `My ${label} is`;
             value.textContent = person[label];
+            
+            btn.classList.add("active")
         })
     })
 }
