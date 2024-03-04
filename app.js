@@ -9,8 +9,16 @@ const btn = get(".btn");
 const btns = [...document.querySelectorAll(".icon")];
 console.log(btns);
 
+
+const getUser = async () =>{
+    const response = await fetch(URL);
+    
+}
+
 const showUser = ()=>{
     // get user from api 
+    getUser()
+
     // display users
 };
 
