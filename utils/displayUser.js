@@ -1,3 +1,4 @@
+
 const displayUser = (person) => {
     img.src = person.image;
     value.textContent = person.name;
@@ -13,6 +14,6 @@ const displayUser = (person) => {
             btn.classList.add("active")
         })
     })
-}
+};
 
 export default displayUser;
